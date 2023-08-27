@@ -6,9 +6,7 @@ import Notiflix from "notiflix";
     const breedSelect = document.querySelector(".breed-select");
     const catInfo = document.querySelector(".cat-info");
     const loader = document.querySelector(".loader");
-    // let breeds = {};
  
-
 // Event listener 
 
 breedSelect.addEventListener("change", fetchCatInfo);
